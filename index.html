@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <h1 class="has-text-white title">Список дел</h1>
+
+      <!-- block with the addition of content -->
+      <div class="add_block">
+            <input
+              class="input is-medium"
+              type="text"
+              placeholder="Введите задачу"
+              id="input"
+            />
+            <button class="button is-primary" id="button">Добавить</button>
+      </div>
+
+      
+      <!-- a block with a to-do list display -->
+      <div class="size">
+        <div id="app"></div>
+      </div>
+      
+      <div class="end-block">
+        <button id="delete-all" class="button is-danger">Удалить все задачи</button>
+      </div>
+      
+    </div>
+
+    
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
